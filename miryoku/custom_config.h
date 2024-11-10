@@ -34,9 +34,9 @@ XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  K43 \
 K40  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  K44 \
                K32  K33  K34       K35  K36  K37
 
-#define K42 &kp A
-#define K43 &kp B
-#define K44 &kp C
+#define K42 &kp LS(F5)
+#define K43 &kp LC(F5)
+#define K44 &kp F12
 
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTINNERINDEX 3 4
