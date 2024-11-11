@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - 'master'
-      - 'revise-sym-layer'
+      - 'update-f-keys'
 jobs:
   build:
     uses: ./.github/workflows/main.yml
