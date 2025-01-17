@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - 'master'
-      - 'mikoto'
 jobs:
   build:
     uses: ./.github/workflows/main.yml
