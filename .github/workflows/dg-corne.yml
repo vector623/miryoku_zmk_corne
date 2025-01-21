@@ -7,14 +7,14 @@ on:
   push:
     branches:
       - 'master'
-      - 'mikoto'
+      - 'reset-firmware'
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
       board: '["mikoto@7.2.0", "nice_nano_v2"]'
-      shield: '["corne_left","corne_right"]'
+      shield: '["corne_left","corne_right","settings_reset"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
       custom_config: '["#define MIRYOKU_KLUDGE_SOFT_OFF"]'
