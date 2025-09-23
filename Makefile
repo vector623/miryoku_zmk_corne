@@ -8,10 +8,10 @@ unzip:
 	rm matrix.txt
 	mv zmk.uf2 right.uf2
 
-left-flash-nicenano:
+left-nicenano:
 	mv left.uf2 /media/davidg/NICENANO/
 
-right-flash-nicenano:
+right-nicenano:
 	mv right.uf2 /media/davidg/NICENANO/
 
 left-flash-mikoto:
